@@ -1,0 +1,1934 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF 8">
+    <meta http equiv="X UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device width, initial scale=1. 0">
+
+    <title>Technical Documentation</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header id="text-doc">
+            Elementos:
+        </header>
+
+        <ul id="elements">
+            <li class="mark">
+                <a class="nav-link" href="#Introducción">
+                    Introducción
+                </a>
+            </li>
+
+            <li class="mark">
+                <a class="nav-link" href="#HTML_Básico">
+                    HTML Básico
+                </a>
+            </li>
+
+            <li class="mark">
+                <div class="mark-div">
+                    <a class="nav-link" href="#Etiquetas_y_Elementos_HTML">
+                        Etiquetas y Elementos HTML
+                    </a>
+
+                    <ul class="mini-nav">
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Etiqueta_HTML">
+                                Etiqueta HTML
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Elemento_HTML">
+                                Elemento HTML
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Atributo_HTML">
+                                Atributo HTML
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Contenido_HTML">
+                                Contenido HTML
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Estructura_HTML">
+                                Estructura HTML
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Página_HTML">
+                                Página HTML
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Comentario">
+                                Comentario
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Etiquetas_y_Elementos_HTML_Básicos">
+                                Etiquetas y Elementos HTML Básicos
+                            </a>
+                        </li>
+                    </ul>
+                </div>                
+            </li>
+
+            <li class="mark">
+                <a class="nav-link" href="#Formularios_HTML">
+                    Formularios HTML
+                </a>
+            </li>
+
+            <li class="mark">
+                <a class="nav-link" href="#CSS_Básico">
+                    CSS Básico
+                </a>
+            </li>
+
+            <li class="mark">
+                <div class="mark-div">
+                    <a class="nav-link" href="#Selectores_CSS">
+                        Selectores CSS
+                    </a>
+
+                    <ul class="mini-nav">
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Selector_de_tipo">
+                                Selector de tipo
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Selector_de_clase">
+                                Selector de clase
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Selector_de_ID">
+                                Selector de ID
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Selector_de_descendencia">
+                                Selector de descendencia
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Selector_de_grupo">
+                                Selector de grupo
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Selector_de_atributo">
+                                Selector de atributo
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Selector_de_pseudo-clase">
+                                Selector de pseudo-clase
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Selector_de_pseudo-elemento">
+                                Selector de pseudo-elemento
+                            </a>
+                        </li>
+                    </ul>
+                </div>                
+            </li>
+
+            <li class="mark">
+                <div class="mark-div">
+                    <a class="nav-link" href="#Diseño_Responsivo">
+                        Diseño Responsivo
+                    </a>
+
+                    <ul class="mini-nav">
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Media_Queries">
+                                Media Queries
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Viewport">
+                                Viewport
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Fluid_Grids">
+                                Fluid Grids
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Imágenes_flexibles">
+                                Imágenes flexibles
+                            </a>
+                        </li>
+                    </ul>
+                </div>                
+            </li>
+
+            <li class="mark">
+                <div class="mark-div">
+                    <a class="nav-link" href="#Modelos_de_Caja_en_CSS">
+                        Modelos de Caja en CSS
+                    </a>
+
+                    <ul class="mini-nav">
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Content">
+                                Content
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Padding">
+                                Padding
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Border">
+                                Border
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Margin">
+                                Margin
+                            </a>
+                        </li>
+                    </ul>
+                </div>                
+            </li>
+
+            <li class="mark">
+                <div class="mark-div">
+                    <a class="nav-link" href="#Tipografía_en_CSS">
+                        Tipografía en CSS
+                    </a>
+
+                    <ul class="mini-nav">
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Cambiar_la_fuente_de_un_elemento">
+                                Cambiar la fuente de un elemento
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Cambiar_el_tamaño_de_la_fuente">
+                                Cambiar el tamaño de la fuente
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Cambiar_el_grosor_de_la_fuente">
+                                Cambiar el grosor de la fuente
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Aplicar_estilo_cursiva_a_la_fuente">
+                                Aplicar estilo cursiva a la fuente
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Cambiar_el_color_del_texto">
+                                Cambiar el color del texto
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Alinear_el_texto_dentro_de_un_contenedor">
+                                Alinear texto dentro de un contenedor
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#interlineado">
+                                Interlineado
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#kerning">
+                                Kerning
+                            </a>
+                        </li>
+                    </ul>
+                </div>                
+            </li>
+
+            <li class="mark">
+                <div class="mark-div">
+                    <a class="nav-link" href="#Colores_y_Fondos_en_CSS">
+                        Colores y Fondos en CSS
+                    </a>
+
+                    <ul class="mini-nav">
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Colores">
+                                Colores
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Fondos">
+                                Fondos
+                            </a>
+                        </li>
+                    </ul>
+                </div>                
+            </li>
+
+            <li class="mark">
+                <div class="mark-div">
+                    <a class="nav-link" href="#Diseño_de_Página_con_Flexbox">
+                        Diseño de Página con Flexbox
+                    </a>
+
+                    <ul class="mini-nav">
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Conceptos_Básicos_de_Flexbox">
+                                Conceptos Básicos de Flexbox
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Propiedades_de_Flexbox">
+                                Propiedades de Flexbox
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Ejemplos_de_uso_de_Flexbox">
+                                Ejemplos de uso de Flexbox
+                            </a>
+                        </li>
+                    </ul>
+                </div>                
+            </li>
+
+            <li class="mark">
+                <div class="mark-div">
+                    <a class="nav-link" href="#Diseño_de_Página_con_CSS_Grid">
+                        Diseño de Página con CSS Grid
+                    </a>
+
+                    <ul class="mini-nav">
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Conceptos_Básicos_de_CSS_Grid">
+                                Conceptos Básicos de CSS Grid
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Propiedades_de_CSS_Grid">
+                                Propiedades de CSS Grid
+                            </a>
+                        </li>
+                    </ul>
+                </div>                
+            </li>
+
+            <li class="mark">
+                <div class="mark-div">
+                    <a class="nav-link" href="#Transiciones_y_Animaciones_CSS">
+                        Transiciones y Animaciones CSS
+                    </a>
+
+                    <ul class="mini-nav">
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Transiciones_CSS">
+                                Transiciones CSS
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Animaciones_CSS">
+                                Animaciones CSS
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Diferencias_clave">
+                                Diferencias clave
+                            </a>
+                        </li>
+                    </ul>
+                </div>      
+            </li>
+
+            <li class="mark">
+                <div class="mark-div">
+                    <a class="nav-link" href="#Multimedia_en_la_Web">
+                        Multimedia en la Web
+                    </a>
+
+                    <ul class="mini-nav">
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Audio">
+                                Audio
+                            </a>
+                        </li>
+
+                        <li class="mini-element">
+                            <a class="mini-links" href="#Video">
+                                Video
+                            </a>
+                        </li>
+                    </ul>
+                </div>                
+            </li>
+
+            <li class="mark">
+                <a class="nav-link" href="#Recursos_Adicionales">
+                    Recursos Adicionales
+                </a>
+            </li>
+        </ul>
+    </nav> 
+
+
+    <main id="main-doc">
+        <h1 id="title">Documentación de HTML y CSS</h1>
+        
+        <section class="main-section" id="Introducción">
+            <header class="header-section">
+                Introducción
+            </header>
+            
+            <p class="text">
+                En esta documentación, aprenderás los conceptos básicos de HTML (HyperText Markup Language) y CSS (Cascading Style Sheets), dos tecnologías fundamentales para el desarrollo web. 
+                HTML se utiliza para estructurar el contenido de una página web, mientras que CSS se encarga de su presentación.
+            </p>
+        </section>
+
+        <section class="main-section" id="HTML_Básico">
+            <header class="header-section">
+                HTML Básico
+            </header>
+            
+            <p class="text">
+                HTML es el lenguaje de marcado que se utiliza para crear la estructura de una página web. 
+                Aquí, aprenderás sobre etiquetas, elementos y cómo crear una estructura básica de página web.
+                Aquí tienes un ejemplo básico que muestra como va estructurado el HTML:                                                                                  
+            </p>
+
+            <pre class="example">
+                <code>
+                    <div class="elementExample">
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html&gt;
+                            &lt;head&gt;
+                                &lt;title&gt;Mi Página&lt;/title&gt;
+                            &lt;/head&gt;
+
+                            &lt;body&gt;
+                                &lt;h1&gt;Bienvenido&lt;/h1&gt;
+                                &lt;p&gt;Esta es una página web de ejemplo.&lt;/p&gt;
+                            &lt;/body&gt;
+                        &lt;/html&gt;
+                    </div>
+                </code>
+            </pre>
+        </section>
+
+        <section class="main-section" id="Etiquetas_y_Elementos_HTML">
+            <header class="header-section">
+                Etiquetas y Elementos HTML  
+            </header>
+            
+            <p class="text">
+                Las etiquetas y elementos HTML son componentes fundamentales para crear páginas web. 
+                A continuacion, vamos a aprender sus conceptos y veremos ejemplos de como usarlos.
+            </p>
+
+            <div id="Etiqueta_HTML">
+                <h4>Etiqueta HTML</h4>
+                <p class="text">
+                    Una etiqueta HTML es una instrucción que marca un elemento en un documento HTML. 
+                    Las etiquetas están compuestas por corchetes angulares &lt; elemento &gt;. 
+                    Las etiquetas se utilizan para definir la estructura y el contenido de una página web.                                                                           
+                </p>
+            </div>
+            
+            <div id="Elemento_HTML">
+                <h4>Elemento HTML</h4>
+                <p class="text">
+                    Un elemento HTML es un conjunto completo que incluye la etiqueta de apertura, el contenido y la etiqueta de cierre. 
+                    Los elementos HTML se utilizan para representar diferentes tipos de contenido, como texto, imágenes, enlaces y más.
+                    Ejemplo de elemento HTML:                                                                                  
+                </p>
+    
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            &lt;p&gt;Este es un párrafo de ejemplo.&lt;/p&gt;
+                        </div>
+                    </code>
+                </pre>
+    
+            </div>
+            
+            <div id="Atributo_HTML">
+                <h4>Atributo HTML</h4>
+                <p class="text">
+                    Los atributos son información adicional proporcionada dentro de una etiqueta para configurar o modificar el comportamiento de un elemento. 
+                    Los atributos se colocan dentro de la etiqueta de apertura y suelen tener un nombre y un valor.
+                    Ejemplo de atributo:    
+                </p>
+    
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+                       
+                            <span class = "changeColor">En este ejemplo "src" y "alt" son los atributos</span>
+                        </div>               
+                    </code>
+                </pre>
+            </div>
+            
+            <div id="Contenido_HTML">
+                <h4>Contenido HTML</h4>
+                <p class="text">
+                    El contenido de un elemento HTML es la información que se muestra en la página. 
+                    Puede ser texto, imágenes, enlaces o incluso otros elementos HTML anidados.                                                                                  
+                    Ejemplo de contenido HTML:
+                </p>
+    
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            <span class="changeColor">Texto:</span>
+                            &lt;p&gt;Soy el contenido de esta etiqueta.&lt;/p&gt;   
+                            
+                            <span class="changeColor">Enlace que contiene imagen anidada:</span>
+                            &lt;a&gt;
+                                &lt;img src="URL_de_la_imagen" alt="Ejemplo"&gt;
+                            &lt;/a&gt;                            
+                        </div>       
+                    </code>
+                </pre>
+            </div>
+            
+            <div id="Estructura_HTML">
+                <h4>Estructura HTML</h4>
+                <p class="text">
+                    La estructura HTML se refiere a la forma en que se organizan y anidan las etiquetas y elementos en un documento HTML. 
+                    La estructura adecuada es importante para que el navegador interprete correctamente la página web.                                                                                 
+                </p>
+            </div>
+            
+            <div id="Página_HTML">
+                <h4>Página HTML</h4>
+                <p class="text">
+                    Una página HTML es un documento que contiene código HTML y se muestra en un navegador web. 
+                    Es la unidad básica de contenido en la web.
+                </p>
+            </div> 
+
+            <div id="Comentario">
+                <h4>Comentario</h4>
+                <p class="text">
+                    Un comentario es una porción de texto dentro de un documento o código que no se muestra en la página web final. 
+                    Los comentarios se utilizan para incluir notas, explicaciones o aclaraciones para los desarrolladores que están trabajando en el código o para proporcionar información adicional en la documentación.                                                                                  
+                </p>
+    
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            <span class="comment">&lt;!--Esto es un comentario--&gt;</span>
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Etiquetas_y_Elementos_HTML_Básicos">
+                <h4>Etiquetas y Elementos HTML Básicos</h4>
+
+                <ul class ="tags">
+                  <li class="listTag">
+                    `&lt;html&gt;`: Define el documento HTML.
+                  </li>
+                  <li class="listTag">
+                    `&lt;head&gt;`: Contiene información sobre el documento, como el título de la página.
+                  </li>  
+                  <li class="listTag"> 
+                    `&lt;body&gt;`: Contiene el contenido visible de la página.
+                  </li>
+                  <li class="listTag">              
+                    `&lt;h1&gt;`: Define un encabezado de nivel 1.
+                  </li>
+                  <li class="listTag">              
+                    `&lt;p&gt;`: Define un párrafo de texto.
+                  </li>
+                  <li class="listTag">
+                    `&lt;a&gt;`: Crea un hipervínculo.
+                  </li>
+                  <li class="listTag">
+                    `&lt;img&gt;`: Inserta una imagen.
+                  </li>
+                </ul>
+                
+                <p class="text">A continuación, una demostración sencilla de cómo se ven y se usan estos elementos en HTML:</p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            &lt;!DOCTYPE html&gt;
+                            &lt;html&gt;
+                                &lt;head&gt;
+                                    &lt;title&gt;Mi Primera Página&lt;/title&gt;
+                                &lt;/head&gt;
+                            
+                                &lt;body&gt;
+                                    &lt;h1&gt;Este es un Título de Nivel 1&lt;/h1&gt;
+                                    &lt;p&gt;Este es un párrafo. Puedes escribir cualquier contenido aquí.&lt;/p&gt;
+                                    &lt;a href="https://www.ejemplo.com"&gt;Enlace a Ejemplo.com&lt;/a&gt;
+                                    &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+                                &lt;/body&gt;
+                            &lt;/html&gt;
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">En este ejemplo:</p>
+
+                <ul class="tags">
+                    <li class="listTag">`&lt;html&gt;` envuelve todo el contenido de la página.</li>
+                    <li class="listTag">`&lt;head&gt;` contiene metainformación, como el título de la página.</li>
+                    <li class="listTag">`&lt;body&gt;` contiene el contenido visible, que incluye un título `&lt;h1&gt;`, un párrafo `&lt;p&gt;`, un enlace `&lt;a&gt;`, y una imagen `&lt;img&gt;`.</li>
+                    <li class="listTag">El enlace `&lt;a&gt;` lleva a "https://www.ejemplo.com".</li>
+                    <li class="listTag">La etiqueta de imagen `&lt;img&gt;` muestra la imagen "imagen.jpg" con una descripción alternativa.</li>
+                </ul>
+
+                <div class="idea">
+                    HTML ofrece muchas más etiquetas y elementos para crear páginas web más completas y ricas en contenido.
+                </div>
+            </div>
+        </section>
+
+        <section class="main-section" id="Formularios_HTML">
+            <header class="header-section">
+                Formularios HTML    
+            </header>
+            
+            <p class="text">
+                Los formularios HTML son elementos que permiten a los usuarios ingresar datos y enviar esa información a un servidor web para su procesamiento. 
+                Los formularios son una parte fundamental de la interacción en la web y se utilizan para recopilar datos como nombres de usuario, contraseñas, comentarios, opciones de selección y mucho más. 
+                Aquí tienes un ejemplo básico de un formulario HTML:                  
+            </p>
+            
+            <pre class="example">
+                <code>
+                    <div class="elementExample">
+                        &lt;form action="URL_a_la_que_se_enviarán_los_datos" method="post"&gt;
+                            &lt;label for="nombre&gt;Nombre:&lt;/label&gt;
+                            &lt;input type="text" id="nombre" name="nombre" required&gt;
+                    
+                            &lt;label for="email&gt;Correo electrónico:&lt;/label&gt;
+                            &lt;input type="email" id="email" name="email" required&gt;
+                    
+                            &lt;label for="mensaje&gt;Mensaje:&lt;/label&gt;
+                            &lt;textarea id="mensaje" name="mensaje" rows="4" required&gt;&lt;/textarea&gt;
+                    
+                            &lt;input type="submit" value="Enviar&gt;
+                        &lt;/form&gt;
+                    </div>
+                </code>
+            </pre>
+
+            <p class="text">En este ejemplo:</p>
+
+                <ul class="tags">
+                    <li class="listTag">
+                        &lt;form&gt;: 
+                        Se define el elemento &lt;form&gt; que contiene todos los elementos del formulario. 
+                        El atributo action especifica la URL a la que se enviarán los datos del formulario y el atributo method determina el método de envío (en este caso, "post").
+                    </li>
+                    <li class="listTag">
+                        &lt;label&gt;: 
+                        Los elementos &lt;label&gt; se utilizan para etiquetar los campos del formulario y mejorar la accesibilidad. 
+                        El atributo for del &lt;label&gt; se relaciona con el atributo id del campo correspondiente.
+                    </li>
+                    <li class="listTag">
+                        &lt;input&gt;: 
+                        Los elementos &lt;input&gt; se utilizan para recopilar información como texto o direcciones de correo electrónico. 
+                        En este ejemplo, hay un campo de texto y un campo de correo electrónico.
+                    </li>
+                    <li class="listTag">
+                        &lt;textarea&gt;: 
+                        El elemento &lt;textarea&gt; se utiliza para recopilar texto largo, como comentarios o mensajes extensos.
+                    </li>
+                    <li class="listTag">
+                        &lt;input type="submit"&gt;: 
+                        Este botón de tipo "submit" se utiliza para enviar el formulario al servidor. 
+                        Cuando el usuario hace clic en este botón, los datos del formulario se envían a la URL especificada en el atributo action.
+                    </li>
+                </ul>
+
+                <div class="idea">
+                    El ejemplo anterior es un formulario básico, pero los formularios HTML pueden incluir una amplia variedad de elementos y atributos para satisfacer diferentes necesidades. 
+                    Los datos recopilados en el formulario pueden procesarse en el lado del servidor utilizando lenguajes como PHP, Python o JavaScript, entre otros.                    
+                </div>
+        </section>
+
+        <hr>
+
+        <section class="main-section" id="CSS_Básico">
+            <header class="header-section">
+                CSS Básico  
+            </header>
+            
+            <p class="text">
+                CSS, o Cascading Style Sheets (Hojas de Estilo en Cascada), es un lenguaje de diseño utilizado para controlar la presentación y el aspecto visual de documentos HTML. 
+                En otras palabras, CSS se utiliza para definir cómo se verá una página web, incluyendo la tipografía, colores, márgenes, tamaños de texto, posicionamiento de elementos y más.                
+                Veamos un ejemplo muy básico de un archivo HTML con un estilo CSS incorporado en la misma página:
+            </p>
+            
+            <pre class="example">
+                <code>
+                    <div class="elementExample">
+                        &lt;html&gt;
+                            &lt;head&gt;
+                                &lt;title&gt;Ejemplo CSS&lt;/title&gt;
+
+                                &lt;style&gt;
+                                    p {
+                                        color: blue;
+                                        font-size: 16px;
+                                    }
+                                    .destacado {
+                                        background-color: yellow;
+                                        font-weight: bold;
+                                    }
+                                &lt;/style&gt;
+                            &lt;/head&gt;
+                        
+                            &lt;body&gt;
+                                &lt;p&gt;Este es un párrafo normal.&lt;/p&gt;
+                    
+                                &lt;p class="destacado"&gt;Este es un párrafo destacado.&lt;/p&gt;
+                            &lt;/body&gt;
+                        &lt;/html&gt;
+                    </div>
+                </code>
+            </pre>
+
+            <p class="text">En este ejemplo:</p>
+
+                <ul class="tags">
+                    <li class="listTag">
+                        El estilo se define dentro de la sección &lt;style&gt; en la cabecera del documento HTML.
+                    </li>
+                    <li class="listTag">
+                        Se aplican estilos a todos los elementos &lt;p&gt; para cambiar el color del texto y el tamaño de la fuente.
+                    </li>
+                    <li class="listTag">
+                        Se aplica un estilo adicional al párrafo con la clase "destacado" para cambiar el fondo y hacerlo negrita.
+                    </li>
+                </ul>
+
+                <div class="idea">
+                    CSS es un lenguaje poderoso que permite un control detallado sobre la presentación de una página web. 
+                    Los estilos también pueden definirse en archivos externos para facilitar la reutilización y el mantenimiento del diseño.
+                </div>
+        </section>
+
+        <section class="main-section" id="Selectores_CSS">
+            <header class="header-section">
+                Selectores CSS  
+            </header>
+            
+            <p class="text">
+                Los selectores CSS son patrones que se utilizan para seleccionar y aplicar estilos a elementos específicos en un documento HTML. 
+                Los selectores son fundamentales en CSS, ya que determinan qué elementos en la página web se verán afectados por las reglas de estilo que definas. 
+                Aquí hay algunos selectores CSS comunes:          
+            </p>    
+
+            <div id="Selector_de_tipo">
+                <h4>Selector de tipo</h4>
+
+                <p class="text">
+                    Selecciona elementos basados en su etiqueta HTML. 
+                    Por ejemplo, p seleccionará todos los párrafos en la página.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            p {
+                                color: blue;
+                            }
+                        </div>                    
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Selector_de_clase">
+                <h4>Selector de clase</h4>
+
+                <p class="text">
+                    Selecciona elementos basados en su atributo class. 
+                    Los elementos con la clase especificada se verán afectados.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            .destacado {
+                                background-color: yellow;
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Selector_de_ID">
+                <h4>Selector de ID</h4>
+
+                <p class="text">
+                    Selecciona un elemento único basado en su atributo id. 
+                    Los IDs deben ser únicos en la página.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            #encabezado {
+                                font-size: 24px;
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Selector_de_descendencia">
+                <h4>Selector de descendencia</h4>
+
+                <p class="text">
+                    Selecciona elementos que son descendientes de otro elemento. 
+                    Por ejemplo, ul li seleccionará todos los elementos &lt;li&gt; que están dentro de una lista desordenada (&lt;ul&gt;).
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            ul li {
+                                list-style-type: square;
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Selector_de_grupo">
+                <h4>Selector de grupo</h4>
+
+                <p class="text">
+                    Permite agrupar varios selectores y aplicar el mismo estilo a todos ellos.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            h1, h2  {
+                                color: red;
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Selector_de_atributo">
+                <h4>Selector de atributo</h4>
+
+                <p class="text">
+                    Selecciona elementos con un atributo HTML específico. 
+                    Por ejemplo, [type="text"] seleccionará todos los elementos de entrada de texto.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            input[type="text"] {
+                                border: 1px solid #ccc;
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Selector_de_pseudo-clase">
+                <h4>Selector de pseudo-clase</h4>
+
+                <p class="text">
+                    Selecciona elementos en función de su estado o posición. 
+                    Por ejemplo, :hover selecciona un elemento cuando el cursor del mouse se encuentra sobre él.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            a:hover {
+                                text-decoration: underline;
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Selector_de_pseudo-elemento">
+                <h4>Selector de pseudo-elemento</h4>
+
+                <p class="text">
+                    Selecciona una parte específica de un elemento. 
+                    Por ejemplo, ::before crea un elemento antes del contenido de un elemento seleccionado.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            p::before {
+                                content: "Antes de: ";
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <p>
+                Estos son solo algunos ejemplos de selectores CSS. 
+                Los selectores te permiten apuntar de manera precisa a elementos en tu página web y aplicar estilos de forma selectiva. 
+                Puedes combinar selectores para lograr reglas de estilo más complejas y personalizadas.
+            </p>
+        </section>
+
+        <section class="main-section" id="Diseño_Responsivo">
+            <header class="header-section">
+                Diseño Responsivo   
+            </header>
+            
+            <p class="text">
+                El diseño responsivo (también conocido como diseño adaptable o responsive design en inglés) es una técnica de diseño web que permite que un sitio web se adapte de manera automática a diferentes tamaños de pantalla y dispositivos, como computadoras de escritorio, tabletas y teléfonos móviles. 
+                Esto garantiza que la experiencia del usuario sea óptima sin importar el dispositivo que esté utilizando. 
+                CSS desempeña un papel fundamental en la implementación del diseño responsivo.
+                Ejemplos sencillos:
+            </p>    
+
+            <div id="Media_Queries">
+                <h4>Media Queries</h4>
+
+                <p class="text">
+                    Las media queries son reglas de CSS que permiten aplicar estilos específicos según las características de la pantalla del dispositivo. 
+                    Pueden depender de factores como el ancho de la pantalla, la altura de la pantalla, la orientación del dispositivo, la resolución, etc.
+                    Por ejemplo, para cambiar la fuente y el tamaño de texto en pantallas más pequeñas, puedes hacer lo siguiente:
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            @media (max-width: 768px) {
+                                body {
+                                    font-size: 16px;
+                                }
+                            }
+    
+                            <span class="changeColor">
+                En este ejemplo, cuando el ancho de la pantalla sea de 768 píxeles o menos, 
+                el tamaño de fuente del cuerpo se reducirá a 16 píxeles.
+                            </span>
+                        </div> 
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Viewport">
+                <h4>Viewport</h4>
+
+                <p class="text">
+                    En el diseño responsivo, se utiliza el valor viewport para establecer la escala inicial de la página. 
+                    Esto permite que la página se ajuste correctamente en la pantalla del dispositivo. 
+                    Puedes usar la siguiente línea de código en la sección &lt;head&gt; de tu documento HTML:
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Fluid_Grids">
+                <h4>Fluid Grids</h4>
+
+                <p class="text">
+                    En lugar de especificar tamaños fijos para elementos en tu diseño, como anchos de caja en píxeles, se utilizan porcentajes para crear diseños fluidos que se adaptan al tamaño de la pantalla. 
+                    Por ejemplo, puedes definir un contenedor principal con un ancho del 100%:
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            .container {
+                                width: 100%;
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Imágenes_flexibles">
+                <h4>Imágenes flexibles</h4>
+
+                <p class="text">
+                    Las imágenes pueden redimensionarse de manera fluida utilizando CSS para asegurarse de que no se desborden en pantallas más pequeñas. 
+                    Esto se logra mediante la propiedad max-width: 100%;:
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            img {
+                                max-width: 100%;
+                                height: auto;
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+        </section>
+
+        <section class="main-section" id="Modelos_de_Caja_en_CSS">
+            <header class="header-section">
+                Modelos de Caja en CSS  
+            </header>
+            
+            <p class="text">
+                Los "modelos de caja" en CSS se refieren a cómo se representa y se comporta un elemento HTML en una página web en términos de su contenido, relleno, bordes y margen. 
+                En CSS, cada elemento en una página se considera una "caja" que consta de cuatro componentes principales: contenido, relleno, borde y margen. 
+                Estos componentes se pueden controlar y modificar mediante propiedades de CSS. 
+            </p>    
+
+            <div id="Content">
+                <h4>Contenido (Content)</h4>
+
+                <p class="text">
+                    El contenido es la parte real y visible del elemento, como el texto o las imágenes.
+                    Se controla con la propiedad `width` para establecer el ancho y `height` para establecer la altura del contenido.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            .caja {
+                                width: 200px;
+                                height: 100px;
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Padding">
+                <h4>Relleno (Padding)</h4>
+
+                <p class="text">
+                    El relleno es el espacio entre el contenido y el borde del elemento.
+                    Se controla con las propiedades `padding-top`, `padding-right`, `padding-bottom` y `padding-left`, o de manera abreviada con `padding`.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            .caja {
+                                padding: 10px; <span class="comment">/* 10px de relleno en todas las direcciones */</span>
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Border">
+                <h4>Borde (Border)</h4>
+
+                <p class="text">
+                    El borde rodea el contenido y el relleno del elemento.
+                    Se controla con las propiedades `border-width`, `border-style` y `border-color`. 
+                    También se puede establecer de manera abreviada con `border`.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            .caja {
+                                border: 2px solid #000; <span class="comment">/* Borde de 2px de ancho, sólido y de color negro */</span>
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Margin">
+                <h4>Margen (Margin)</h4>
+
+                <p class="text">
+                    El margen es el espacio entre el borde del elemento y otros elementos circundantes.
+                    Se controla con las propiedades `margin-top`, `margin-right`, `margin-bottom` y `margin-left`, o de manera abreviada con `margin`.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            .caja {
+                                margin: 20px; <span class="comment">/* 20px de margen en todas las direcciones */</span>
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <p>
+                Aquí tienes un ejemplo completo que muestra cómo se aplican estos componentes del modelo de caja en un elemento HTML:
+            </p>
+
+            <pre class="example">
+                <code>
+                    <div class="elementExample">
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html&gt;
+                            &lt;head&gt;
+                                &lt;style&gt;
+                                    .caja {
+                                        width: 200px;
+                                        height: 100px;
+                                        padding: 10px;
+                                        border: 2px solid #000;
+                                        margin: 20px;
+                                    }
+                                &lt;/style&gt;
+                            &lt;/head&gt;
+    
+                            &lt;body&gt;
+                                &lt;div class="caja"&gt;
+                                    Este es un ejemplo de modelo de caja en CSS.
+                                &lt;/div&gt;
+                            &lt;/body&gt;
+                        &lt;/html&gt;
+                    </div>
+                </code>
+            </pre>
+
+            <p>
+                En este ejemplo, la clase `.caja` se aplica a un `&lt;div&gt;` y se controlan sus dimensiones, relleno, borde y margen mediante CSS. 
+                Esto ilustra cómo puedes controlar el aspecto y el espacio alrededor de un elemento en tu página web utilizando el modelo de caja en CSS.
+            </p>
+        </section>
+
+        <section class="main-section" id="Tipografía_en_CSS">
+            <header class="header-section">
+                Tipografía en CSS   
+            </header>
+            
+            <p class="text">
+                La tipografía en CSS se refiere a cómo puedes controlar y personalizar la apariencia del texto en tu sitio web utilizando hojas de estilo en cascada (CSS). 
+                Esto incluye la elección de la fuente, el tamaño, el espaciado entre letras y líneas, el peso de la fuente y otros aspectos relacionados con el aspecto del texto en tu página web.
+                Ejemplos de cómo puedes aplicar estilos de tipografía en CSS:
+            </p>    
+
+            <div id="Cambiar_la_fuente_de_un_elemento">
+                <h4>Cambiar la fuente de un elemento</h4>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            font-family: "Arial", sans-serif;
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    En este ejemplo, estamos estableciendo la fuente del texto en "Arial". 
+                    Si "Arial" no está disponible en la computadora del usuario, se usará una fuente genérica "sans-serif" como respaldo.
+                </p>
+            </div>
+
+            <div id="Cambiar_el_tamaño_de_la_fuente">
+                <h4>Cambiar el tamaño de la fuente</h4>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            font-size: 16px;
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    Aquí, estamos estableciendo el tamaño de la fuente en 16 píxeles.
+                </p>
+            </div>
+
+            <div id="Cambiar_el_grosor_de_la_fuente">
+                <h4>Cambiar el grosor de la fuente</h4>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            <span class="comment">/* Cambiar el grosor de la fuente a negrita */</span>
+                            font-weight: bold;
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    Esto hará que el texto sea más grueso y, por lo tanto, "negrita".
+                </p>
+            </div>
+
+            <div id="Aplicar_estilo_cursiva_a_la_fuente">
+                <h4>Aplicar estilo cursiva a la fuente</h4>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            font-style: italic;
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    Esto hará que el texto tenga un estilo cursiva.
+                </p>
+            </div>
+
+            <div id="Cambiar_el_color_del_texto">
+                <h4>Cambiar el color del texto</h4>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            color: blue;
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    En este caso, el texto se mostrará en color azul.
+                </p>
+            </div>
+
+            <div id="Alinear_el_texto_dentro_de_un_contenedor">
+                <h4>Alinear el texto dentro de un contenedor</h4>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            text-align: center;
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    Esto alineará el texto en el centro del contenedor.
+                </p>
+            </div>
+
+            <div id="interlineado">
+                <h4>Cambiar la altura de línea (interlineado)</h4>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            line-height: 1.5;
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    Un valor de 1.5 significa que la altura de línea será un 150% del tamaño de la fuente actual.
+                </p>
+            </div>
+
+            <div id="kerning">
+                <h4>Ajustar el espaciado entre caracteres (kerning)</h4>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            letter-spacing: 2px;
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    En este caso, estamos aumentando el espaciado entre caracteres en 2 píxeles.
+                </p>
+            </div>
+
+            <p>
+                Estos son ejemplos básicos de cómo puedes controlar la tipografía en CSS. 
+                Puedes aplicar estas propiedades a elementos específicos en tu HTML utilizando selectores CSS para personalizar la apariencia de tu texto en tu sitio web.
+            </p>
+        </section>
+
+        <section class="main-section" id="Colores_y_Fondos_en_CSS">
+            <header class="header-section">
+                Colores y Fondos en CSS     
+            </header>
+            
+            <p class="text">
+                En CSS, puedes controlar los colores y fondos de elementos HTML para personalizar la apariencia de tu sitio web. 
+                Hay varias propiedades que te permiten especificar colores y fondos.
+            </p>    
+
+            <div id="Colores">
+                <h4>Colores</h4>
+
+                <p class="text">
+                    <b>color</b>: 
+                    esta propiedad establece el color del texto. 
+                    Puedes usar nombres de colores, códigos hexadecimales o valores RGB para definir el color del texto.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            color: red;
+
+                            color: #00AABB;
+                            
+                            color: rgb(255, 0, 0);
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    <b>background-color</b>: 
+                    esta propiedad establece el color de fondo de un elemento. 
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            background-color: #FFFFCC;
+
+                            background-color: rgba(0, 128, 255, 0.5); <span class="comment">/* con transparencia */</span>
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Fondos">
+                <h4>Fondos</h4>
+
+                <p class="text">
+                    <b>background-image</b>: 
+                    esta propiedad te permite establecer una imagen como fondo en lugar de un color. 
+                    Puedes proporcionar la ruta de la imagen como valor.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            background-image: url('imagen.jpg');
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    <b>background-repeat</b>: 
+                    controla cómo se repite la imagen de fondo. 
+                    Puedes utilizar valores como repeat, no-repeat, repeat-x, o repeat-y.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            background-repeat: repeat-x; <span class="comment">/* Repetir solo en la dirección horizontal */</span>
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    <b>background-size</b>: 
+                    esta propiedad ajusta el tamaño de la imagen de fondo. 
+                    Puedes usar valores como auto, contain, cover o especificar valores en píxeles o porcentajes.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            background-size: cover; <span class="comment">/* Ajustar para cubrir completamente el elemento */</span>
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    <b>background-position</b>: 
+                    esta propiedad establece la posición inicial de la imagen de fondo. 
+                    Puedes especificar valores en píxeles, porcentajes o palabras clave.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            background-position: center top; <span class="comment">/* Centrar verticalmente y alineado arriba */</span>
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    <b>background</b>: 
+                    puedes combinar varias propiedades de fondo en una sola declaración.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            background: #FFFFCC url('imagen.jpg') no-repeat center center;
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div class="idea">
+                <p>
+                    Puedes aplicar estas propiedades a elementos HTML específicos para personalizar la apariencia de tu sitio web, ya sea cambiando los colores de texto o estableciendo imágenes de fondo en tus elementos.
+                </p>
+            </div>
+        </section>
+
+        <section class="main-section" id="Diseño_de_Página_con_Flexbox">
+            <header class="header-section">
+                Diseño de Página con Flexbox    
+            </header>
+            
+            <p class="text">
+                El diseño de página con Flexbox en CSS es una técnica que te permite crear diseños flexibles y eficientes para tu sitio web. 
+                Flexbox, o "Flexible Box Layout," es un modelo de diseño que simplifica la distribución y alineación de elementos en un contenedor, lo que facilita la creación de diseños responsivos y centrados en la alineación.
+            </p>    
+
+            <div id="Conceptos_Básicos_de_Flexbox">
+                <h4>Conceptos Básicos de Flexbox</h4>
+
+                <p class="text">
+                    <b>Contenedor Flex (Flex Container)</b>:
+                    el elemento padre que contiene los elementos flexibles. 
+                    Debes aplicar display: flex; o display: inline-flex; al contenedor flex.
+                </p>
+
+                <p class="text">
+                    <b>Elementos Flex (Flex Items)</b>:
+                    los elementos hijos del contenedor flex que se organizan y alinean según las reglas de Flexbox.
+                </p>
+
+                <p class="text">
+                    <b>Eje Principal (Main Axis)</b>:
+                    la dirección principal en la que los elementos flex se alinearán. 
+                    Por defecto, es horizontal (izquierda a derecha).
+                </p>
+                
+                <p class="text">
+                    <b>Eje Cruzado (Cross Axis)</b>:
+                    la dirección perpendicular al eje principal. 
+                    Por defecto, es vertical (arriba a abajo).
+                </p>
+            </div>
+
+            <div id="Propiedades_de_Flexbox">
+                <h4>Propiedades de Flexbox</h4>
+
+                <p class="text">
+                    <b>display: flex;</b>:
+                    Se aplica al contenedor flex y convierte a sus hijos en elementos flexibles.
+                </p>
+
+                <p class="text">
+                    <b>flex-direction</b>:
+                    Define la dirección del eje principal y puede ser row, row-reverse, column, o column-reverse.
+                </p>
+                
+                <p class="text">
+                    <b>justify-content</b>:
+                    Controla la alineación de los elementos a lo largo del eje principal y puede ser flex-start, flex-end, center, space-between, o space-around.
+                </p>
+
+                <p class="text">
+                    <b>align-items</b>:
+                    Alinea los elementos a lo largo del eje cruzado y puede ser flex-start, flex-end, center, baseline, o stretch.
+                </p>
+
+                <p class="text">
+                    <b>align-self</b>:
+                    Permite ajustar la alineación de un elemento flexible individualmente, anulando align-items.
+                </p>
+
+                <p class="text">
+                    <b>flex</b>:
+                    Define la relación de crecimiento de los elementos flexibles y controla cómo se distribuye el espacio adicional.
+                </p>
+            </div>
+
+            <div id="Ejemplos_de_uso_de_Flexbox">
+                <h4>Ejemplos de uso de Flexbox</h4>
+            
+                <div>
+                    <h6>Alineación Horizontal</h6>
+
+                    <pre class="example">
+                        <code>
+                            <div class="elementExample">
+
+                            </div>
+                            .container {
+                                display: flex;
+                                justify-content: center;
+                            }
+                              
+                            .item {
+                                flex: 1;
+                            }
+                        </code>
+                    </pre>
+
+                    <p>
+                        En este ejemplo, los elementos dentro del contenedor se alinearán horizontalmente en el centro.
+                    </p>
+                </div>
+
+                <div>
+                    <h6>Alineación Vertical</h6>
+
+                    <pre class="example">
+                        <code>
+                            <div class="elementExample">
+                                .container {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                }
+                                  
+                                .item {
+                                    flex: 1;
+                                }
+                            </div>
+                        </code>
+                    </pre>
+        
+                    <p>
+                        En este caso, los elementos se alinearán verticalmente en el centro del contenedor.
+                    </p>
+                </div>
+
+                <div>
+                    <h6>Diseño de Cuadrícula</h6>
+
+                    <pre class="example">
+                        <code>
+                            <div class="elementExample">
+                                .container {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                }
+                                  
+                                .item {
+                                    flex: 1;
+                                }
+                            </div>
+                        </code>
+                    </pre>
+        
+                    <p>
+                        Este ejemplo permite crear un diseño de cuadrícula donde los elementos se envuelven automáticamente cuando el espacio es insuficiente.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-section" id="Diseño_de_Página_con_CSS_Grid">
+            <header class="header-section">
+                Diseño de Página con CSS Grid   
+            </header>
+            
+            <p class="text">
+                CSS Grid Layout es un sistema de diseño bidimensional en CSS que te permite crear diseños de página complejos y flexibles. 
+                A diferencia de Flexbox, que es un modelo de diseño unidimensional (una fila o una columna), CSS Grid permite organizar elementos en filas y columnas, lo como si fuera una cuadrícula.
+            </p>
+
+            <div id="Conceptos_Básicos_de_CSS_Grid">
+                <h4>Conceptos Básicos de CSS Grid</h4>
+
+                <p class="text">
+                    <b>Contenedor Grid (Grid Container)</b>:
+                    es el elemento principal que contiene los elementos que se organizarán en una cuadrícula. 
+                    Para convertir un elemento en un contenedor de cuadrícula, aplica display: grid; al mismo.
+                </p>
+
+                <p class="text">
+                    <b>Elementos de Grid (Grid Items)</b>:
+                    son los elementos hijos del contenedor de cuadrícula que se organizan en filas y columnas de la cuadrícula.
+                </p>
+                
+                <p class="text">
+                    <b>Filas y Columnas</b>:
+                    en CSS Grid, puedes especificar el número de filas y columnas, así como sus tamaños, utilizando propiedades como grid-template-rows y grid-template-columns.
+                </p>
+
+                <p class="text">
+                    <b>Celdas</b>:
+                    cada celda de la cuadrícula es una ubicación específica donde un elemento de la cuadrícula puede ubicarse.
+                </p>
+            </div>
+
+            <div id="Propiedades_de_CSS_Grid">
+                <h4>Propiedades de CSS Grid</h4>
+
+                <p class="text">
+                    <b>display: grid;</b>:
+                    Se aplica al contenedor de cuadrícula para activar el modelo de cuadrícula.
+                </p>
+
+                <p class="text">
+                    <b>grid-template-rows y grid-template-columns</b>:
+                    Estas propiedades definen el número y el tamaño de las filas y columnas de la cuadrícula. 
+                    Puedes especificar tamaños fijos, porcentajes o valores automáticos.
+                </p>
+                
+                <p class="text">
+                    <b>grid-template-areas</b>:
+                    Te permite asignar nombres a áreas en la cuadrícula y organizar elementos en función de esas áreas.
+                </p>
+
+                <p class="text">
+                    <b>grid-gap</b>:
+                    Define el espacio entre las filas y las columnas de la cuadrícula.
+                </p>
+
+                <p class="text">
+                    <b>grid-row y grid-column</b>:
+                    Estas propiedades permiten ubicar elementos en ubicaciones específicas de la cuadrícula.
+                </p>
+            </div>
+
+            <pre class="example">
+                <code>
+                    <div class="elementExample">
+                        .container {
+                            display: grid;
+                            grid-template-columns: 1fr 1fr 1fr; <span class="comment">/* Tres columnas de igual tamaño */</span>
+                            grid-template-rows: 100px 200px; <span class="comment">/* Dos filas con tamaños fijos */</span>
+                            grid-gap: 10px; <span class="comment">/* Espacio entre filas y columnas */</span>
+                        }
+                                  
+                        .item {
+                            background-color: #3498db;
+                            padding: 10px;
+                            text-align: center;
+                            color: white;
+                        }
+                                  
+                        .item1 {
+                            grid-row: 1 / 3; <span class="comment">/* Ocupa dos filas */</span>
+                            grid-column: 1 / 2; <span class="comment">/* Ocupa una columna */</span>
+                        }
+                                  
+                        .item2 {
+                            grid-row: 1 / 2; <span class="comment">/* Ocupa una fila */</span>
+                            grid-column: 2 / 4; <span class="comment">/* Ocupa dos columnas */</span>
+                        }
+                                  
+                        .item3 {
+                            grid-row: 2 / 3; <span class="comment">/* Ocupa una fila */</span>
+                            grid-column: 2 / 4; <span class="comment">/* Ocupa dos columnas */</span>
+                        }
+                    </div>
+                </code>
+            </pre>
+
+            <p>
+                En este ejemplo, el contenedor .container tiene una cuadrícula de tres columnas y dos filas con espacio entre filas y columnas. 
+                Los elementos .item1, .item2, y .item3 se ubican en ubicaciones específicas dentro de la cuadrícula utilizando las propiedades grid-row y grid-column.
+            </p>
+                
+            <p>
+                CSS Grid proporciona un control preciso sobre el diseño de la página, lo que lo convierte en una herramienta poderosa para crear diseños complejos y flexibles. 
+            </p>
+        </section>
+
+        <section class="main-section" id="Transiciones_y_Animaciones_CSS">
+            <header class="header-section">
+                Transiciones y Animaciones CSS  
+            </header>
+            
+            <p class="text">
+                Las transiciones y animaciones en CSS son técnicas que te permiten añadir efectos visuales y dinamismo a tu sitio web.
+            </p>    
+
+            <div id="Transiciones_CSS">
+                <h4>Transiciones CSS</h4>
+
+                <p class="text">
+                    Las transiciones permiten cambiar gradualmente los valores de las propiedades CSS de un estado a otro. 
+                    Puedes animar propiedades como el color, tamaño, posición y más.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            .button {
+                                background-color: #3498db;
+                                transition: background-color 0.3s ease;
+                              }
+                              
+                              .button:hover {
+                                background-color: #e74c3c;
+                            }
+                        </div>
+                    </code>
+                </pre>
+
+                <p>En este ejemplo, cuando el cursor se sitúa sobre el botón, el color de fondo cambia de azul (#3498db) a rojo (#e74c3c) con una transición suave de 0.3 segundos (definida con transition) usando la función de temporización "ease".</p>
+            </div>
+
+            <div id="Animaciones_CSS">
+                <h4>Animaciones CSS</h4>
+
+                <p class="text">
+                    Las animaciones en CSS te permiten crear secuencias de cambios de estilo a lo largo del tiempo. 
+                    Puedes definir keyframes (fotogramas clave) para especificar cómo cambian los estilos en diferentes momentos de la animación.
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            @keyframes bounce {
+                                0%, 20%, 50%, 80%, 100% {
+                                  transform: translateY(0);
+                                }
+                                40% {
+                                  transform: translateY(-30px);
+                                }
+                                60% {
+                                  transform: translateY(-15px);
+                                }
+                            }
+                              
+                            .ball {
+                                width: 50px;
+                                height: 50px;
+                                background-color: #f39c12;
+                                animation: bounce 2s infinite;
+                            }
+                        </div>
+                    </code>
+                </pre>
+
+                <p>
+                    En este ejemplo, hemos creado una animación llamada "bounce" que mueve una bola hacia arriba y abajo. 
+                    La animación se aplica al elemento con la clase .ball y se repite infinitamente (infinite) durante 2 segundos.
+                </p>
+            </div>
+
+            <div id="Diferencias_clave">
+                <h4>Diferencias clave</h4>
+
+                <div id="flex-differences">
+                    <div class="text" id="transition">
+                        <span class="titles">Transiciones</span>
+                        <p class="text">
+                            Son adecuadas para cambios sencillos y para proporcionar retroalimentación interactiva. 
+                            <br><br>
+                            Se basan en el cambio de una propiedad de estado a otro con una transición suave.
+                        </p>
+                    </div>
+
+                    <div class="text" id="animation">
+                        <span class="titles">Animaciones</span>
+                        <p class="text">
+                            Son más versátiles y adecuadas para crear efectos complejos y secuencias de cambios en el tiempo. 
+                            <br><br>
+                            Puedes definir keyframes para especificar estilos en varios momentos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                Puedes combinar transiciones y animaciones para crear experiencias de usuario más atractivas en tu sitio web. 
+            </p>
+        </section>
+
+        <section class="main-section" id="Multimedia_en_la_Web">
+            <header class="header-section">
+                Multimedia en la Web    
+            </header>
+            
+            <p class="text">
+                Puedes incorporar imágenes(vistas anteriormente), audio y video en tu página web utilizando HTML y CSS. 
+                Ejemplos para audios y videos:
+            </p>    
+
+            <div id="Audio">
+                <h4>Audio</h4>
+
+                <p class="text">
+                    Incorporar un archivo de audio con HTML:
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            &lt;!DOCTYPE html&gt;
+                            &lt;html&gt;
+                                &lt;head&gt;
+                                    &lt;title&gt;Mi Página Web con Audio&lt;/title&gt;
+                                &lt;/head&gt;
+    
+                                &lt;body&gt;
+                                    &lt;audio controls&gt;
+                                        &lt;source src="musica.mp3" type="audio/mpeg"&gt;
+                                    &lt;/audio&gt;
+                                &lt;/body&gt;
+                            &lt;/html&gt;
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    Estilizar el reproductor de audio con CSS (personalizar la apariencia):
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            audio {
+                                width: 300px;
+                                background-color: #f4f4f4;
+                                border: 1px solid #ddd;
+                                padding: 10px;
+                            }
+                        </div>
+                    </code>
+                </pre>
+            </div>
+
+            <div id="Video">
+                <h4>Video</h4>
+
+                <p class="text">
+                    Incorporar un archivo de video con HTML:
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            &lt;!DOCTYPE html&gt;
+                            &lt;html&gt;
+                                &lt;head&gt;
+                                    &lt;title&gt;Mi Página Web con Audio&lt;/title&gt;
+                                &lt;/head&gt;
+
+                                &lt;body&gt;
+                                    &lt;video width="640" height="360" controls&gt;
+                                        &lt;source src="video.mp4" type="video/mp4"&gt;
+                                    &lt;/video&gt;
+                                &lt;/body&gt;
+                            &lt;/html&gt;
+                        </div>
+                    </code>
+                </pre>
+
+                <p class="text">
+                    Estilizar el reproductor de video con CSS (personalizar la apariencia):
+                </p>
+
+                <pre class="example">
+                    <code>
+                        <div class="elementExample">
+                            video {
+                                width: 640px;
+                                height: 360px;
+                                border: 1px solid #ddd;
+                                background-color: #f4f4f4;
+                            }
+                        </div>
+                    </code>
+                </pre>
+                
+            </div>
+
+            <div class="idea">
+                <p>
+                    Estos son ejemplos básicos de cómo incorporar audio y video en tu página web utilizando HTML y CSS. 
+                    Puedes personalizar aún más la apariencia y funcionalidad utilizando CSS y JavaScript. 
+                    Además, asegúrate de que los archivos de medios (imágenes, audio y video) estén ubicados en las rutas correctas y en formatos compatibles con los navegadores.
+                </p>
+            </div>
+        </section>
+
+        <hr>
+        
+        <section class="main-section" id="Recursos_Adicionales">
+            <header class="header-section">
+                Recursos Adicionales    
+            </header>
+            
+            <ul id="ref-list">
+                <li class="ref-elements">
+                    <b>Mozilla Developer Network (MDN):</b> MDN es una excelente fuente de información sobre HTML, CSS y otras tecnologías web. 
+                    Puedes encontrar documentación detallada, ejemplos de código y guías en 
+                    <a class="link-ref" href="https://developer.mozilla.org/" target="_blank">
+                        <strong>
+                            developer.mozilla.org
+                        </strong>
+                    </a>.
+                </li>   
+                     
+                <li class="ref-elements">
+                    <b>W3Schools:</b> W3Schools es un recurso popular para aprender HTML y CSS. 
+                    Su sitio web, 
+                    <a class="link-ref" href="https://www.w3schools.com/" target="_blank">
+                        <strong>
+                            w3schools.com
+                        </strong>
+                    </a> 
+                    ofrece tutoriales interactivos y ejemplos prácticos.
+                </li>
+
+                <li class="ref-elements">
+                    <b>Blogs y foros de desarrollo web:</b> Los blogs y foros de la comunidad de desarrollo web son excelentes lugares para obtener información y consejos de expertos.
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
